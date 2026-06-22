@@ -151,6 +151,8 @@ CatBoost was selected because:
 * It reduces the need for extensive one-hot encoding
 * It is effective for nonlinear relationships between trip features and tip amounts
 
+I used GridSearch cross-validation to improve the generalizability of the model.
+
 ## Model Evaluation
 
 The model was evaluated using:
